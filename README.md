@@ -42,28 +42,19 @@ staff-record-cpp/
 
 ---
 
-## 🚀 How to Run the Program
 
-### ✅ Option 1: Run the Provided `.exe` (Windows)
+---
 
-1. Download or clone the repository.
-2. Double-click on `staff_record.exe`.
-3. The program runs in a terminal window.
+## 🚀 How to Run
 
-> 💡 No compilation needed if you are on Windows.
+1. Compile the C++ file using any C++ compiler:
 
-### 🔧 Option 2: Compile from Source
+   ```bash
+   g++ -o staff_record_app staff_record.cpp
 
-If you want to compile the code yourself:
+2. Run the executable:
 
-#### On Windows (using g++)
+   ```bash
+   ./staff_record_app
 
-```bash
-  g++ staff_record.cpp -o staff_record.exe
-  ./staff_record.exe
-
-#### On Linux/macOS (replace system("cls") with system("clear"))
-
-```bash
-  g++ staff_record.cpp -o staff_record
-  ./staff_record
+💡 If you're on Windows, you can also run staff_record.exe directly by double-clicking it.
